@@ -22,12 +22,6 @@ with open('db.json') as f:
 
 app = Flask(__name__)
 
-student_info = {
-    "Name": "",
-    "Matric_Number": "",
-    "Year": "",
-    "Course": "",
-}
 
 curr_question = list(data.keys())[0]
 curr_response = data[curr_question]
